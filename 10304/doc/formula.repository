@@ -1,0 +1,49 @@
+\form#0:$ 2p^k - p^{k-1} $
+\form#1:\[ \phi_t + \mathbf{u} \cdot \nabla \phi = \nabla\cdot( M(\phi) \nabla \mu ), \quad \text{ in } \Omega \]
+\form#2:\[ \mu = \gamma \left( \frac1\delta \mathcal{W}'(\phi) - \delta \Delta \phi \right) - \frac12\varepsilon'(\phi)|\nabla V|^2 + \frac12 \rho'(\phi)|\mathbf{u}|^2, \quad \text{ in } \Omega \]
+\form#3:\[ \alpha\left( \phi_t + \mathbf{u}_{\boldsymbol{\tau}} \partial_{\boldsymbol{\tau}} \phi \right) + \gamma \left( \Theta_{fs}'(\phi) + \delta \partial_{\mathbf{n}} \phi \right) = 0, \quad M(\phi) \partial_n \mu = 0, \quad \text{on }\Gamma, \]
+\form#4:\[ q_t + \nabla\cdot (q \mathbf{u} ) = \nabla \cdot \left[ K(\phi) \nabla \left( \lambda q + V \right) \right], \quad \text{ in } \Omega \]
+\form#5:\[ K(\phi) \nabla\left( \lambda q + V \right) \cdot \mathbf{n} = 0, \quad \text{ on } \Gamma. \]
+\form#6:\[ \Delta t = \min \left\{ \Delta t_0, \frac{ h^{3/2} }{ \| \textbf{u} \|_{L^\infty} } \right\} \]
+\form#7:$m_1$
+\form#8:$m_2$
+\form#9:\[ m( x ) = (m_1 - m_2 )\chi_{\{ \phi(x) >0 \}} + m_2 \]
+\form#10:\[ \mathcal{W}(x) = \begin{cases} (1+x)^2, & x \le -1, \\ \frac14 (1-x^2)^2, & |x| \leq 1, \\ (1-x)^2, & x > 1. \end{cases} \]
+\form#11:\[ \gamma_{fs}(x) = \gamma \frac12 \cos \theta_s \sin(\frac{\pi x}2). \]
+\form#12:\[ \gamma_{fs}(x) = \gamma \Theta_{fs}(x), \]
+\form#13:$\gamma$
+\form#14:$\varepsilon$
+\form#15:$K$
+\form#16:$M$
+\form#17:$\rho$
+\form#18:$\beta$
+\form#19:$\eta$
+\form#20:$\lambda$
+\form#21:$\delta$
+\form#22:$\alpha$
+\form#23:$\varepsilon^\star$
+\form#24:$\mathcal{W}$
+\form#25:$\gamma_{fs}$
+\form#26:$ x = 1 $
+\form#27:$x = -1$
+\form#28:$x=1$
+\form#29:$x=-1$
+\form#30:$\mathcal{W}'(x)$
+\form#31:$\sup_{x \in \mathbb{R}} |\mathcal{W}''(x)|$
+\form#32:$\gamma_{fs}'(x)$
+\form#33:$\sup_{x \in \mathbb{R}} |\gamma_{fs}''(x) |$
+\form#34:\[ \Delta \xi^{k+1} = \frac{\varrho}{\Delta t} \nabla\cdot \mathbf{u}^{k+1}, \quad \text{ in } \Omega, \]
+\form#35:\[ \partial_n \xi^{k+1} = 0, \quad \text{ on } \Gamma \]
+\form#36:\[ p^{k+1} = p^k + \xi^{k+1}. \]
+\form#37:$\xi$
+\form#38:\[ \frac{ D(\rho(\phi){\mathbf{u}}) }{Dt} - \nabla\cdot\left( \eta(\phi) \mathbf{S}({\mathbf{u}}) \right) + \nabla p = \mu \nabla \phi - q \nabla \left( V + \lambda q \right) + \frac12 \rho'(\phi)\phi_t {\mathbf{u}}, \quad \text{on }\Omega, \]
+\form#39:\[ \frac{ D(\rho(\phi){\mathbf{u}}) }{Dt} = \sigma(\sigma \mathbf{u})_t + \frac12 \nabla\cdot(\rho \mathbf{u})\mathbf{u}, \quad \mathbf{S}(\mathbf{u}) = \frac12 \left( \nabla \mathbf{u} + {\nabla \mathbf{u}}^T \right). \]
+\form#40:\[ {\mathbf{u}}\cdot{\mathbf{n}} = 0, \qquad \beta(\phi) {\mathbf{u}}_{\boldsymbol{\tau}} + \eta(\phi) \mathbf{S}({\mathbf{u}})_{{\mathbf{n}}{\boldsymbol{\tau}}} = \gamma\left( \Theta_{fs}'(\phi) + \delta \partial_{\mathbf{n}} \phi \right) \partial_{\boldsymbol{\tau}} \phi, \quad \text{on }\Gamma, \]
+\form#41:$=2p^k - p^{k-1}$
+\form#42:$p^{k+1}$
+\form#43:$p^{\star,k+1}$
+\form#44:$p^k-p^{k-1}$
+\form#45:$\mathbf{u}_0 = 0$
+\form#46:\[ - \nabla\cdot\left( [ \varepsilon(\phi) ] \nabla V \right) = q \chi_\Omega, \quad \text{ in } \Omega^\star, \]
+\form#47:\[ V = V_0, \quad \text{ on }\partial^\star\Omega^\star, \qquad \partial_{\mathbf{n}} V = 0, \text{ on }\partial\Omega^\star \cap \Gamma, \]
+\form#48:\[ \varepsilon(\phi) = \begin{cases} \varepsilon(\phi), & \Omega, \\ \varepsilon^\star, & \Omega^\star \setminus \Omega, \end{cases} \]

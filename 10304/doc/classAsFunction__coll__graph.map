@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node4" href="deal.tag$classSmartPointer.html" title="SmartPointer\&lt; const hp::DoFHandler\&lt; dim \&gt; \&gt;" alt="" coords="11,69,304,99"/>
+<area shape="rect" id="node6" href="deal.tag$classhp_1_1QCollection.html" title="hp::QCollection\&lt; dim&#45;1 \&gt;" alt="" coords="73,123,241,152"/>
+<area shape="rect" id="node8" href="deal.tag$classhp_1_1FEValues.html" title="hp::FEValues\&lt; dim \&gt;" alt="" coords="84,176,231,205"/>
+<area shape="rect" id="node14" href="deal.tag$classSmartPointer.html" title="SmartPointer\&lt; const TrilinosWrappers::Vector \&gt;" alt="" coords="7,336,308,365"/>
+<area shape="rect" id="node22" href="deal.tag$classhp_1_1FEFaceValues.html" title="hp::FEFaceValues\&lt; dim \&gt;" alt="" coords="71,549,244,579"/>
+</map>
