@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>ANS 4(1) Martin Alkämper, Andreas Dedner, Robert Klöfkorn, Martin Nolte: The DUNE-ALUGrid Module</title>
+  <link rel="stylesheet" type="text/css" href="/ans.css"/>
+</head>
+
+<body>
+  <h2>Archive of Numerical Software 4(1), pp. 1-28 ,2016</h2>
+  <h1>The DUNE-ALUGrid Module</h1>
+  <h2>Martin Alkämper, Andreas Dedner, Robert Klöfkorn, Martin Nolte</h2>
+  
+<p>
+In this paper we present the new DUNE-ALUGrid module. This module
+contains a major overhaul of the sources from the ALUGrid library and the
+binding to the DUNE software framework. The main improvements concern the
+parallel feature set of the library. The main changes include user-defined load
+balancing, parallel grid construction, and an redesign of the 2d grid which can now
+also be used for parallel computations. In addition many improvements
+have been introduced into the code to increase the parallel efficiency and
+to decrease the memory footprint.</p>
+<p>
+The original ALUGrid library is widely used within the DUNE community due to its good parallel performance for problems requiring local adaptivity and dynamic load balancing. Therefore, this new model will benefit a number of DUNE users. In addition we have
+added features to increase the range of problems for which the grid manager can
+be used, for example, introducing a 3d tetrahedral grid using a parallel newest vertex bisection algorithm for conforming grid refinement. In this paper we will discuss the new features, extensions to the DUNE interface,  and explain for various examples how the code is used in parallel environments.
+</p>
+
+<img src="" alt=""/>
+
+<h3>Available media</h3>
+<ul>
+<li> <a href="http://journals.ub.uni-heidelberg.de/index.php/ans/article/view/23252">Article in OJS</a></li>
+<li> <a href="http://journals.ub.uni-heidelberg.de/index.php/ans/article/view/">Article (PDF)</a></li>
+<li> <a href="">Source code (tgz)</a></li>
+<li> <a href="doc">Online documentation</a>
+</ul>
+</body>
+</html>
